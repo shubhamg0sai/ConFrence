@@ -7,8 +7,8 @@ In your project, add the Maven repository https://github.com/jitsi/jitsi-maven-r
 The repository typically goes into the build.gradle file in the root of your project:
 
 build.gradle
-*
- allprojects {
+
+*allprojects {
     repositories {
         maven {
             url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
@@ -17,8 +17,8 @@ build.gradle
         mavenCentral()
         maven { url 'https://www.jitpack.io' }
     }
-}
-*
+*}
+
 
 Dependency definitions belong in the individual module build.gradle files:
 '''
