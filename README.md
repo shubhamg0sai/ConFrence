@@ -7,6 +7,7 @@ In your project, add the Maven repository https://github.com/jitsi/jitsi-maven-r
 The repository typically goes into the build.gradle file in the root of your project:
 
 build.gradle
+***
 allprojects {
     repositories {
         maven {
@@ -17,13 +18,13 @@ allprojects {
         maven { url 'https://www.jitpack.io' }
     }
 }
-
+***
 
 Dependency definitions belong in the individual module build.gradle files:
-
+***
 dependencies {
     // (other dependencies)
     implementation ('org.jitsi.react:jitsi-meet-sdk:+') { transitive = true }
 }
-
+***
 
