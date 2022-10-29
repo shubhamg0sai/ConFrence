@@ -1,7 +1,7 @@
-Ji# ConFrence
+# ConFrence
 A video call confrence application bye using jitsi
 
-Use pre-build SDK artifacts/binaries
+# Use pre-build SDK artifacts/binaries
 In your project, add the Maven repository https://github.com/jitsi/jitsi-maven-repository/raw/master/releases and the dependency org.jitsi.react:jitsi-meet-sdk into your build.gradle files.
 
 The repository typically goes into the build.gradle file in the root of your project:
@@ -24,7 +24,6 @@ allprojects {
 
 
 
-```
 # Using the API
 Jitsi Meet SDK is an Android library which embodies the whole Jitsi Meet experience and makes it reusable by third-party apps.
 
