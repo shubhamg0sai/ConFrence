@@ -19,8 +19,15 @@ allprojects {
     }
 }
 ```
+Dependency definitions belong in the individual module build.gradle files:
 
 
+```
+dependencies {
+    // (other dependencies)
+    implementation ('org.jitsi.react:jitsi-meet-sdk:+') { transitive = true }
+}
+```
 
 
 
